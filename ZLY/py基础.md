@@ -1,5 +1,5 @@
-1、动态语言：不需要声明类型
-  静态语言：需要声明类型  
+1、动态语言：不需要声明类型  
+   静态语言：需要声明类型  
 2、解释性语言：  
   ● 在运行的时候将程序翻译成机器语言  
   ● 不需要再运行之前编译，在运行程序的时候才解释，每执行一次就要翻译一次，效率低。  
@@ -25,6 +25,7 @@
   ● 可以用for循环的，都可以叫做可迭代，包括list/set/tuple/str/dic、file、等数据结构以及生成器  
   ● 使用isinstance(x,Iterable)  
   ● 只要实现了_inter_()  
-  ● 迭代器Iterator，是指可以被next()函数调用并不断返回下一个值，直到StopIteration；生成器都是Iterator，而列表等数据结构不是  
+  ● 迭代器Iterator，是指可以被next()函数调用并不断返回下一个值，直到StopIteration；  
+    生成器都是Iterator，而列表等数据结构不是  
 6、python 中的 ‘==’ 判断 https://blog.csdn.net/kobebryantlin0/article/details/73391584  
   基本的数据类型：数值、字符、列表、元组、字典、集合   
