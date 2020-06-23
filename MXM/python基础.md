@@ -2,3 +2,7 @@
   python中统一都是引用传递，类型是属于对象的，而不是变量。
   对象有两种，“可更改”和“不可更改”对象。
   https://www.jianshu.com/p/e93b6131a5cb
+* python 中的 == 判断的到底是什么？
+  https://blog.csdn.net/kobebryantlin0/article/details/73391584
+ 
+
