@@ -10,12 +10,14 @@
   dict.fromkeys(['key1','key2']):创建一个新的列表，值都为None
   get(key):不会发生错误
   
-  items():反汇字典视图
+  items():返回字典视图
   keys()：返回字典视图 ————————————这三个用在for循环
   value():返回字典视图
   
   pop(key):将键值对从字典中删除
   popitem():随机删除一个，因为字典是无序的
   setdefault(key,defaultvalue):如果没有这个key,就返回defaultvalue,同时将key,defaultvalue添加到字典中
+  
+小仙女留言：你改成md文件是不是格式好看一点呀
   
   
