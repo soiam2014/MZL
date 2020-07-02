@@ -2,3 +2,5 @@ https://zhuanlan.zhihu.com/p/103502367
 Nonlocol和global的区别：
 	Nonlocal主要是未了内函数能够修改外函数，nonlocal修饰的变量，前面需要已经初始过了
 	Global作用在内函数以及全局域，不能作用在外函数上，是一个声明语句，不需要初始化
+
+如果一个变量前面已经生命是global了，就不能再声明成nonlocal
